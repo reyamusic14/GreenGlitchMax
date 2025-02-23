@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Change Image Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Climate Change Image Generator</h1>
+    <div class="form">
+      <label for="city">Select a City:</label>
+      <select id="city">
+        <option value="New York">New York</option>
+        <option value="London">London</option>
+        <option value="Tokyo">Tokyo</option>
+        <option value="Sydney">Sydney</option>
+        <option value="Mumbai">Mumbai</option>
+      </select>
+      <label for="climate-change">Select a Climate Change:</label>
+      <select id="climate-change">
+        <option value="Rising Sea Levels">Rising Sea Levels</option>
+        <option value="Extreme Heat">Extreme Heat</option>
+        <option value="Drought">Drought</option>
+        <option value="Flooding">Flooding</option>
+      </select>
+      <button id="generate">Generate Images</button>
+    </div>
+    <div class="images">
+      <div class="image-container">
+        <img id="image1" src="" alt="Image 1">
+        <div class="actions">
+          <button class="download"><img src="assets/icons/download.png" alt="Download"></button>
+          <button class="share" data-platform="whatsapp"><img src="assets/icons/whatsapp.png" alt="WhatsApp"></button>
+          <button class="share" data-platform="facebook"><img src="assets/icons/facebook.png" alt="Facebook"></button>
+          <button class="share" data-platform="instagram"><img src="assets/icons/instagram.png" alt="Instagram"></button>
+          <button class="share" data-platform="x"><img src="assets/icons/x.png" alt="X"></button>
+        </div>
+      </div>
+      <div class="image-container">
+        <img id="image2" src="" alt="Image 2">
+        <div class="actions">
+          <button class="download"><img src="assets/icons/download.png" alt="Download"></button>
+          <button class="share" data-platform="whatsapp"><img src="assets/icons/whatsapp.png" alt="WhatsApp"></button>
+          <button class="share" data-platform="facebook"><img src="assets/icons/facebook.png" alt="Facebook"></button>
+          <button class="share" data-platform="instagram"><img src="assets/icons/instagram.png" alt="Instagram"></button>
+          <button class="share" data-platform="x"><img src="assets/icons/x.png" alt="X"></button>
+        </div>
+      </div>
+      <div class="image-container">
+        <img id="image3" src="" alt="Image 3">
+        <div class="actions">
+          <button class="download"><img src="assets/icons/download.png" alt="Download"></button>
+          <button class="share" data-platform="whatsapp"><img src="assets/icons/whatsapp.png" alt="WhatsApp"></button>
+          <button class="share" data-platform="facebook"><img src="assets/icons/facebook.png" alt="Facebook"></button>
+          <button class="share" data-platform="instagram"><img src="assets/icons/instagram.png" alt="Instagram"></button>
+          <button class="share" data-platform="x"><img src="assets/icons/x.png" alt="X"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
